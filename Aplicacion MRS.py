@@ -33,6 +33,7 @@ import pandas as pd
 tickers = st.multiselect(
     "Selecciona las empresas (tickers)",
     ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "FB", "JPM", "BRK-B", "V", "JNJ"],
+    default=["AAPL", "MSFT", "GOOGL"]
 )
 
 if tickers:
